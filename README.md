@@ -1,5 +1,5 @@
 # Advent of Code ⭐️
-[![Stars collected](https://shields.io/static/v1?label=stars%20collected&message=1&color=yellow)]()
+[![Stars collected](https://shields.io/static/v1?label=stars%20collected&message=3&color=yellow)]()
 
 ![advent of code](./image_dark.svg#gh-dark-mode-only)
 ![advent of code](./image_light.svg#gh-light-mode-only)
@@ -32,6 +32,7 @@ Collection of my Advent of Code solutions in an overkill project setup 👻🎄.
 
 | day   | part one | part two |
 | :---: | :------: | :------: |
+| 01 | ⭐️ | ⭐️ |
 | 13 | ⭐️ | - |
 
 </p>
