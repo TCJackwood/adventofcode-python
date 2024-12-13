@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "adventofcode"
+version = "1.10.0"
+description = "A collection of Advent of Code solutions"
+authors = ["Marcel Blijleven <marcelblijleven@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+rich = "^13.9.4"
+
+
+[tool.poetry.group.dev.dependencies]
+httpx = "^0.28.0"
+coverage = { extras = ["toml"], version = "^7.6.8" }
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+pytest-mock = "^3.14.0"
+ruff = "^0.8.1"
+mypy = "^1.13.0"
+commitizen = "^4.0.0"
+
+[tool.ruff.lint.isort]
+known-first-party = ["adventofcode"]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.coverage.run]
+source_pkgs = ["adventofcode", "tests"]
+branch = true
+parallel = true
+omit = ["src/adventofcode/__about__.py"]
+
+[tool.coverage.paths]
+adventofcode = ["src/adventofcode", "*/adventofcode/arc/adventofcode"]
+tests = ["tests", "*/adventofcode/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == __main__:", "if TYPE_CHECKING:"]
+
+[tool.commitizen]
+tag_format = "v$version"
+version = "2.0.0"
+version_files = ["src/adventofcode/__about__.py"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
