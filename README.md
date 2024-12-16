@@ -1,10 +1,28 @@
 # Advent of Code ⭐️
-[![Stars collected](https://shields.io/static/v1?label=stars%20collected&message=3&color=yellow)]()
+[![Stars collected](https://shields.io/static/v1?label=stars%20collected&message=5&color=yellow)]()
 
 ![advent of code](./image_dark.svg#gh-dark-mode-only)
 ![advent of code](./image_light.svg#gh-light-mode-only)
 
-Collection of my Advent of Code solutions in an overkill project setup 👻🎄.
+🎄🎄🎄 Collection of my Advent of Code solutions! 🎄🎄🎄
+
+<!-- start completed section -->
+## Completed ⭐️
+### 2024
+<details><summary>Solutions for 2024</summary>
+<p>
+
+| day   | part one | part two |
+| :---: | :------: | :------: |
+| 01 | ⭐️ | ⭐️ |
+| 02 | ⭐️ | ⭐️ |
+| 13 | ⭐️ | - |
+
+</p>
+</details>
+
+
+<!-- end completed section -->
 
 ## Features ✨
 - Solutions are timed with the help of a decorator using `time.perf_counter`
@@ -23,28 +41,6 @@ Collection of my Advent of Code solutions in an overkill project setup 👻🎄.
   - An `add-day` script, which add a solution day file using a template and downloads the input data from the AOC site automatically
 - Type checked (`mypy`) and linted (`flake8`)
 - Tested against multiple python versions on each push to master and pull request
-
-<!-- start completed section -->
-## Completed ⭐️
-### 2024
-<details><summary>Solutions for 2024</summary>
-<p>
-
-| day   | part one | part two |
-| :---: | :------: | :------: |
-| 01 | ⭐️ | ⭐️ |
-| 13 | ⭐️ | - |
-
-</p>
-</details>
-
-
-<!-- end completed section -->
-
-<!-- start benchmark section -->
-## Benchmarks 🚀
-
-<!-- end benchmark section --> 
 
 ## Decorators
 What's Christmas without decorations? 🎄
