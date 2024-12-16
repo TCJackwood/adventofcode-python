@@ -13,9 +13,10 @@ Any two adjacent levels differ by at least one and at most three.
 This one got away from me... My initial solution was fairly straight-forward and worked well, then I missed a few 
 small edge cases on Part 2: Allowing for a report to pass as SAFE if removing a single value in the list worked.
 
-I DON'T like my tolerance implementation here, and this should be redone to properly check for these missed cases:
+I DON'T like my tolerance implementation here, and this should be redone to properly check for these missed cases 
+without the mess:
  - 26 28 27 29 31 (remove 28 and this works)
- - 26 28 27 26 25 (remove 26 and this works, but removing 28 doesn't)
+ - 26 28 27 26 25 (remove 26 and this works, but you don't know until you check 28 -> 27)
 '''
 
 def is_safe_report(report: str, tolerance = 0):
