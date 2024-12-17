@@ -1,5 +1,5 @@
 # Advent of Code ⭐️
-[![Stars collected](https://shields.io/static/v1?label=stars%20collected&message=5&color=yellow)]()
+[![Stars collected](https://shields.io/static/v1?label=stars%20collected&message=7&color=yellow)]()
 
 ![advent of code](./image_dark.svg#gh-dark-mode-only)
 ![advent of code](./image_light.svg#gh-light-mode-only)
@@ -16,6 +16,7 @@
 | :---: | :------: | :------: |
 | 01 | ⭐️ | ⭐️ |
 | 02 | ⭐️ | ⭐️ |
+| 03 | ⭐️ | ⭐️ |
 | 13 | ⭐️ | - |
 
 </p>

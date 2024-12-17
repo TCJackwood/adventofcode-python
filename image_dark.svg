@@ -44,7 +44,7 @@
             <div class="container">
                 <span class="normal-text">stars collected:</span>
 				<!-- start star count -->
-				<span class="star-count">5</span>
+				<span class="star-count">7</span>
 <!-- end star count -->
                 <span class="animate">⭐️</span>
             </div>
